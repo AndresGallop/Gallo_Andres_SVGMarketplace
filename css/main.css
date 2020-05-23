@@ -1,0 +1,228 @@
+
+#container{
+  margin: auto; /*center container*/
+  background-color: black;
+}
+
+#mainNav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height:80px;
+  background: rgba(125, 47, 186, 0.71);
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.logo{
+  height: 60px;
+  width: 120px;
+  margin: 10px;
+  background-image: url(../images/logo.jpg);
+  background-size:cover;
+  background-position: center;
+  border: 2px solid rgba(255, 255, 255, 1);
+  order: -460;
+}
+
+#mainNav{
+  justify-content:space-between;
+}
+
+#mainNav ul{
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  order: 20;
+  align-items:center;
+}
+
+
+#mainNav ul li{
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+#mainNav ul li a{
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .5s ease-in-out;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#mainNav ul li a:hover{
+  color: #333;
+  background-color: #984545;
+}
+
+#parla{
+  margin-top: 10px;
+  height: 90px;
+  width: auto;
+  background-color: rgba(88, 87, 98, 0.89);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-weight: bold;
+}
+
+#parla h1{
+  font-size: 30px;
+}
+
+#info{
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: rgba(143, 136, 136, 1);
+}
+
+#info h1{
+  margin-top: 40px;
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-weight:700;
+}
+
+#who{
+  height: 200px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(241, 230, 230);
+  border-radius: 7px;
+  border: 5px solid rgba(88, 87, 98, 0.89);
+
+}
+
+#what{
+  height: 200px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(241, 230, 230);
+  border-radius: 7px;
+  border: 5px solid rgba(88, 87, 98, 0.89);
+
+}
+
+#why{
+  height: 200px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(241, 230, 230);
+  border-radius: 7px;
+  border: 5px solid rgba(88, 87, 98, 0.89);
+}
+
+p{
+  margin-top: 25px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+}
+
+h1{
+  font-size: 30px;
+  justify-content: center;
+}
+
+.gallery{
+  width: 100%;
+  height: 500px;
+  background: rgba(143, 136, 136, 1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+svg{
+  height: 225px;
+  margin: 10px;
+}
+
+.svgi{
+  height: 220px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+
+}
+
+#light:hover { fill: rgba(237, 32, 180, 0.8) !important;}
+#lightGround:hover { fill: rgba(237, 32, 180, 0.8) !important;}
+#corona:hover { fill: rgb(65, 242, 29) !important;}
+#background1:hover { fill: rgb(224, 166, 17) !important;}
+/*mop*/
+#background2:hover { fill: rgb(233, 44, 209) !important;}
+/*escape*/
+#background3:hover { fill: rgb(67, 222, 180) !important;}
+
+#background4:hover { fill: rgb(114, 177, 23) !important;}
+
+#background5:hover { fill: orange !important;}
+/*mop*/
+#background6:hover { fill: red !important;}
+/*escape*/
+#background7:hover { fill: blue !important;}
+
+#background8:hover { fill: pink !important;}
+/*mop*/
+#background:hover { fill: yellow !important;}
+/*escape*/
+#background10:hover { fill: green !important;}
+
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  height: 120px;
+  background-color:rgba(125, 47, 186, 0.71);
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-weight: bold;
+}
+
+#lastNav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+
+#lastNav ul li{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#lastNav ul li a{
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .5s ease-in-out;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#lastNav ul li a:hover{
+  color: black;
+  background-color: #984545;
+}
