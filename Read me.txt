@@ -1,0 +1,5 @@
+This project is little game that shows the good use of HTML, CSS and Javascript.
+
+There are 10 icons in SVG format, when place the pointer over any of those icons, they change their border color.
+
+After opening the console you will be able to see the JS function, select any icon and it will show you a message refered by the id of the icon.
